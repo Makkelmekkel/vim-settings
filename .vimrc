@@ -65,7 +65,7 @@ Plug 'dense-analysis/ale'
 "Jump to Files
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'}
 Plug 'junegunn/fzf.vim'
-
+Plug 'sainnhe/everforest'
     " Plug 'vim-syntastic/syntastic'
 Plug 'will133/vim-dirdiff'
 Plug 'christoomey/vim-tmux-navigator'
@@ -91,5 +91,6 @@ let g:fzf_action={'ctrl-t': 'tab split', 'ctrl-x': 'split', 'ctrl-v': 'vsplit'}
 map <c-p> :Files<CR>
 
 tnoremap <Esc> <C-\><C-n>
-colorscheme apprentice
+set background=dark
+colorscheme everforest
 
